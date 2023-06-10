@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>RK DESIGN</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <h1> RK DESIGN </h1>
+        <ul>
+            <a href=""> Inicio</a>
+            <a href=" "> Sobre</a>
+            <a href=""> Contato</a>
+        </ul>
+    </nav>
+    <div class="principal">
+        <div class="container-form">
+            <h1>Cadastro de Usuário</h1>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required />
+                </div>
+                <div class="form-group">
+                    <label for="confirmar-senha">Confirmar senha:</label>
+                    <input type="password" id="confirmar-senha" name="confirmar-senha" required />
+                </div>
+                <div class="form-group">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="pacotes">
+            <div>
+                <h2>Pacotes de Arte do Canva</h2>
+                <ul>
+                    <li>
+                        <h3>Pacote Básico</h3>
+                        <p>Este pacote inclui:</p>
+                        <ul>
+                            <li>10 modelos de design prontos para uso</li>
+                            <li>10 imagens de alta resolução</li>
+                            <li>10 fontes exclusivas</li>
+                            <li>10 ícones personalizados</li>
+                        </ul>
+                        <p>Valor: R$19,90/mês</p>
+                        <button class="btn-selecionar" data-pacote="basico">Selecionar</button>
+                    </li>
+            </div>
+
+            <div>
+                <li>
+                    <h3>Pacote Avançado</h3>
+                    <p>Este pacote inclui:</p>
+                    <ul>
+                        <li>20 modelos de design prontos para uso</li>
+                        <li>20 imagens de alta resolução</li>
+                        <li>20 fontes exclusivas</li>
+                        <li>20 ícones personalizados</li>
+                        <li>10 vídeos animados</li>
+                    </ul>
+                    <p>Valor: R$39,90/mês</p>
+                    <button class="btn-selecionar" data-pacote="avancado">Selecionar</button>
+                </li>
+            </div>
+
+            <div>
+                <li>
+                    <h3>Pacote Premium</h3>
+                    <p>Este pacote inclui:</p>
+                    <ul>
+                        <li>30 modelos de design prontos para uso</li>
+                        <li>30 imagens de alta resolução</li>
+                        <li>30 fontes exclusivas</li>
+                        <li>30 ícones personalizados</li>
+                        <li>20 vídeos animados</li>
+                        <li>10 modelos de apresentação</li>
+                    </ul>
+                    <p>Valor: R$59,90/mês</p>
+                    <button class="btn-selecionar" data-pacote="premium">Selecionar</button>
+                </li>
+            </div>
+
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
